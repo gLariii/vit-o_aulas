@@ -43,7 +43,7 @@ Além disso ela pode ser usada para mostrar valores de variaveis ou ser feita co
 
 (exercicios 1)
 
--conceitos de variaveis e atribuição 
+- conceitos de variaveis e atribuição :
 A memoria de um computador é que nem uma grande estante e que cada compartimento tem um nome, e para armazenar algo nesse compartimento
 usaremos o "=" (recebe)
     exemplo:
@@ -56,3 +56,66 @@ posteriormente.
 a variavel facilita para descrever os passos para a solução do problema.
 
 (exercicios cap 2)
+
+                            Capitulo 3 - variaveis e entrada de dados
+
+- Nomes de variaveis:
+    - iniciar por letras
+    - pode conter numero e "_" (NÃO PODE INICIAR COM NUMERO, pode começar com "_")
+    - Não pode letras e caracteres especiais
+
+- Tipo de variaveis numericas:
+    - pode ser inteiros ou pontos flutuantes
+        -  Inteiros : sao numeros sem ser decimal
+        -  Ponto flutuante : contem virgula(ponto), mesmo q seja 0 --> 1.0
+            -  Para separar numeros grandes pode se usar o "_" ex: 1_000_000 ==> um milhão
+
+- Representações de valores numericos
+    - explicação do sistema binario para a quantidade de numeros
+
+- variaveis do tipo logico(booleano):
+    - true(T) ou false (F)
+
+- Operadores relacionais:
+    - == --> igualdade
+    - > --> maior que
+    - < --> menor que
+    - != --> diferente
+    - >= --> maior ou igual que
+    - <= --> menor ou igual que
+
+    - # --> comentarios na linha (identificar os programas pelo seu nome e data de inicio)
+
+- Operadores logicos:
+    - not (não --> negação) --> operador unario (Utiliza apenas um operando)
+        - exemplo:
+            not true --> false
+            not false --> true
+
+    - and (e --> conjunção, ambos tem q ser True)  --> operador binario
+        - exemplo:
+            true and true --> true
+            true and false --> false
+            false and true --> false
+            false and false --> false
+
+    - or (ou --> disjunção, pelo menos um tem q ser True) --> operador binario
+        - exemplo:
+            true or true --> true
+            true or false --> true
+            false or true --> true
+            false or false --> false
+
+- expressões logicas:
+Operadores logicos podem ser combinados em expressões logicas.
+    - quando uma expressão tiver mais de uma operação logica, avalia-se o operador not primeiro,
+seguido do operador and, e finalmente o or.
+    - pode ser utilizado com operadores relacionais também.
+
+    - exemplo:
+        salario > 1000 and idade > 18
+        2000 > 1000  and 30 > 18
+            true and true
+                true
+
+- Variavel Sring:

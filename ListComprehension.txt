@@ -1,0 +1,30 @@
+List Comphension
+
+estrutura:
+
+new_list = [expression for item in iterable if condition]
+
+expression: Operação ocorre nesse item
+item: variavel que representa cada item interavel
+iterable: lista existente ou outro interavel
+condition (optional): Filtros/condição
+
+basico:
+
+    numbers = [1, 2, 3, 4, 5]
+    squares = [n**2 for n in numbers]  # [1, 4, 9, 16, 25]
+
+filtrando:
+
+    numbers = [1, 2, 3, 4, 5, 6]
+    even_numbers = [n for n in numbers if n % 2 == 0]  # [2, 4, 6]
+
+transformando em elementos: 
+
+    words = ["hello", "world"]
+    uppercase_words = [word.upper() for word in words]  # ['HELLO', 'WORLD']
+
+Aninhado:
+
+    matrix = [[1, 2], [3, 4], [5, 6]]
+    flattened = [num for row in matrix for num in row]  # [1, 2, 3, 4, 5, 6]

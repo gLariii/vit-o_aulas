@@ -1,0 +1,58 @@
+Livro: Introdução ao á programação com Python
+    Algoritmos e logica para iniciantes - Nilo Ney Coutinho Menezes (3° Edição - novatec)
+
+                                        Capitulo 1- motivação
+"embora boa parte dos programadores ue conheço não seja exatamente o e classifico de 100% normal, e ninguem é"
+
+print("OLá") 
+
+print é uma função usada para enviar dados para tela do computador
+"" -->  limitar inicio e fim das mensagens 
+
+                                    Capitulo 2 - Preparando o ambiente
+
+Instalação dos interpretadores da linguagem:
+- download pela internet da versão mais atual do Python
+
+editando arquivos:
+- python pode usar qualquer editor de texto disponivel( notepad++ ou sublime)
+- terminação de um arquivo em python é .python
+
+cuidados:
+- letras maiusculas e minusculas são diferentes
+- aspas são muito importantes e nao devem ser esquecidas (não esquecer de fecha-las) 
+- parenteses não sao opcionais no python, não os remova e sempre feche-os
+- espaços são importantesm (identação)
+
+primeiros programas 
+- função print informa que vamos exibir algo na tela, então utilizamos ela sempre que quizermos mostrar algo para o usuario.
+    Print("Mensagem)
+Além disso ela pode ser usada para mostrar valores de variaveis ou ser feita como calculadora
+    print(1+3)
+    print(valoressomados)
+
+- Operadores matematicos:
+    + --> soma
+    - --> subtração
+    / --> divisão
+    * --> multiplicação
+    // --> divisão inteira (sem saber o resto e sem virgula)
+    ** --> elevar um numero a um expoente, ou seja exponenciação ou potenciação
+            (x**(4/3) --> o numero apos os * é o qual ele esta sendo elevado)
+    % --> resto da divisão/modulo
+
+(exercicios 1)
+
+-conceitos de variaveis e atribuição 
+A memoria de um computador é que nem uma grande estante e que cada compartimento tem um nome, e para armazenar algo nesse compartimento
+usaremos o "=" (recebe)
+    exemplo:
+    a = 1 (a recebe 2)
+    b = 3
+    print(a+b)
+
+Variavel é uma forma de guardar valores na memoria do computador, toda variavel precisa ter um nome para que seu valor seja utilizado
+posteriormente.
+a variavel facilita para descrever os passos para a solução do problema.
+
+(exercicios cap 2)

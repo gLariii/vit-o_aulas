@@ -31,17 +31,30 @@ Sendo:
     Extras: exercicios extras
     
 Aulas 13 a 22 do vitão para AT 2
+
 Sendo:
+
     Aula 13: Estrutura de repetição
+    
     Aula 14: Lista
+    
     Aula 15: Modularização
+    
     Aula 16: Modularização
+    
     Aula 17: String
+    
     Aula 18: String
+    
     Aula 19: Estrutura de decisão
+    
     Aula 20: Arquivos e Dicionários
+    
     Aula 21: Recursividade
+    
     Aula 22: Não sei ainda
+    
     Aula 23: Atividade
+    
     Extras: exercicios
  

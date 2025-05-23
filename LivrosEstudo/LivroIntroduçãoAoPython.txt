@@ -119,3 +119,112 @@ seguido do operador and, e finalmente o or.
                 true
 
 - Variavel Sring:
+    - Armazenam sequencias de caracteres como nomes e texto no geral, pode conter letras, numeros e ate caracteres especiais
+    - para separar o texto do programa colocamos a string entre aspas ""
+    
+    - função LEN: é utilizada para saber o tamanho de uma string, ela retorna o numero de caracteres(string vazia --> "" --> len = 0).
+        len("jaca") --> 4
+    - tambem da para acessar o conteudo de uma string caracter por caracter (lembre-se a contagem de indice começa no 0)
+      palavra = "jaca"
+      palavra[0] --> j
+    
+- Operações com string( fatiação(utilizar apeas uma parte)/concatenação(juntar strings diferentes)/composição(fzr frases com strings))
+    - concatenação exemplos:
+     S = "ABC"
+     S + "C" --> ABCC
+
+     s + "D" * 4 --> ABCDDDD
+
+     "X" + "-" *10 +"X" --> X----------x
+     
+     OBS: ESSE TIPO DE CONCATENAÇÃO SO PODE SER USADA COM strings
+
+    - composição:
+
+        - Utilizando %:
+
+        "João tem %d anos" %X --> joao tem X anos (%d --> marcador de posição , indica que naquela posição estaremos colocando um inteiro)
+        obs1: %d --> Numeros Inteiros
+            %s --> string
+            %f --> Numeros decimais
+
+        obs2: para formatar a quantida de numero apos a virgula se usa .xf
+
+        - Utilizando .format:
+        nome = joao
+        idade = 10
+        dinheiro = 10.40
+        "{} tem {} anos e R${}".format(nome,idade,dinheiro) --> joao tem 10 anos e R$10.40
+        obs: da para usar espaçamento entre as palavras pegas no .format é so comolar ex: {nome:12} --> 12 pixel de distancia
+
+        - f-string : modo mais utilizado ultimamente:
+        nome = jaca
+        f"A fruta se chama {nome}"
+    
+    - Fatiamento:
+        s = "abcdefg"
+        s[0:2] --> ab (variavel/nome[INICIO:FIM]) 
+        OBS: pode indicar so o fim ou o so o começo [2:](começa do indice 2 e vai ate o fim) ou [:2] começa e termina no indice 2
+    alem disso pode se usar negativo [-1:] começa do final pro começo(ultimo caracter)
+
+- Entrada de dados(recebe dados ou valores):
+    função Input
+    x = Input("digite um texto:) --> oq for digitado sera armazenado na variavel
+
+- Converção de dados:
+    input sempre retorna string porem pode se convetido em outros valores como inteiros ou float
+
+    x = int(input("digite um numero inteiro:"))
+    y = float(input("digite um valor:"))
+
+- Erros comuns: tratamentos de exceção.
+
+                                          Capitulo 4 - Condições
+
+- IF(SE):
+    if<condição>:
+        bloco verdadeiro
+
+    - exemplo:
+    a = 4
+    b - 1
+
+    if a>b:
+        print(a)
+
+    if a<b:
+        print(b)
+
+- IF/ELSE(SE/SENÃO):
+    if<condição>:
+        bloco verdadeiro
+    else:
+        bloco falso
+
+    - exemplo:
+    a = 4
+    b - 1
+
+    if a>b:
+        print(a)
+    else:
+        print(b)
+
+- ANINHAMENTO(if/else dentro de estrutras if/else):
+    if<condição>
+        if<condição>
+            bloco verdadeiro
+        else:
+            bloco falso
+    else:
+        bloco falso
+
+- ELIF:
+    if<condição1>:
+        bloco se for verdadeira a condição1
+    elif<condição2>:
+        bloco se for verdadeira a condição2
+    else:
+        bloco falso
+
+                                         Capitulo 5 - Repetições

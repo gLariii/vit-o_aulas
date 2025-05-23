@@ -22,3 +22,9 @@ nota3 = 8.0
 media = (nota1 + nota2 + nota3) / 3
 aprovado = media >= 7.0
 print(f"Aluno aprovado: {aprovado}")
+
+''' 
+exercicios pt 2
+pg 73
+
+'''
